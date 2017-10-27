@@ -3,7 +3,11 @@ void main()
 {
 int n,c=0;
 scanf("%d",&n);
-for(int i=2;i<=n/2;i++)
+  if(n==2)
+    printf("prime");
+  else
+  {
+  for(int i=2;i<=n/2;i++)
 {
 if(n%i==0)
 {
@@ -15,4 +19,5 @@ if(c==0)
 printf("prime");
 else
 printf("not a prime");
+  }
 }
