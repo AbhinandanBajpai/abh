@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int n;
-scanf("%d",&n);
-if(n%2==0)
+int s;
+scanf("%d",&s);
+if(s%2==0)
 printf("even");
 else
 printf("odd");
